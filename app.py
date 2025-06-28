@@ -10,6 +10,14 @@ from color_palette import preprocess_image, apply_mask, generate_multiple_palett
 app = Flask(__name__)
 CORS(app)
 
+@app.route('/')
+def health_check():
+    return jsonify({
+        'status': 'healthy',
+        'message': 'Paletto API is running',
+        'version': '1.0.0'
+    }), 200
+
 
 ### end point for generating color palette
 ######################################################################
