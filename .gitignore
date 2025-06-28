@@ -1,6 +1,7 @@
 ImageRecoloring.h5
 req.txt
 /.venv
+test_env/
 myvenv/
 
-__pycache__/*
+__pycache__
