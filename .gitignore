@@ -1,0 +1,6 @@
+ImageRecoloring.h5
+req.txt
+/.venv
+myvenv/
+
+__pycache__/*
